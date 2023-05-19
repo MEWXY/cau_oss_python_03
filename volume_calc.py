@@ -1,3 +1,6 @@
+
+
+
 length = float(input("가로:"))
 width  = float(input("세로:"))
 height = float(input("높이:"))
@@ -5,7 +8,8 @@ height = float(input("높이:"))
 #박스의 부피
 volume = length * width * height
 
-print("박스의 부피는", volume, "입니다.")
+
+print("Hello World")
 
 
 # %% 조건을 사용하여 박스의 요금 계산
