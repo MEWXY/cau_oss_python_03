@@ -1,5 +1,4 @@
 import math
-
 class line:
 
   __length = 0
