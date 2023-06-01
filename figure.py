@@ -2,17 +2,22 @@ import math
 
 class line:
 
-  __length = 0
-  def __init__(self, length):
-      self.__length = length 
-  def set_length(self, length):
-      self.__length = length 
+  __width = 0
+  __height = 0
+  def __init__(self, width, height):
+      self.__width = width
+      self.__height = height
+  def set_length(self, width, height):
+      self.__width = width
+      self.__height = height
   def get_length(self):
-      return self.__lenth
-  def area_square(length):
-      return length * length
-  def area_circle(length):
-      return length * length * math.pi
-  def area_regular_triangle(length):
-      return length * length * math.sqrt(3)/4
+      return self.__width, self.__height
+  def area_square(width, height):
+      if width<=0 or height <= 0: raise ValueError
+  def area_circle(width, height):
+      if width <=0 or height <= 0: raise ValueError
+  def area_regular_triangle(width, height):
+      if width <=0 or height <=0: raise ValueError
+      return width *height/2
+  
   
