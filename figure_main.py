@@ -1,4 +1,3 @@
-
 import figure 
 
 myline = figure.line(10, 20)
@@ -9,4 +8,3 @@ try:
     print(rectangle)
 except ValueError:
     print("please input positive numver for width and heigth")
-    
